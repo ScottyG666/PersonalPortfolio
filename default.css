@@ -15,10 +15,7 @@
 
     --buttonColor: black;
 
-    /*these variables are to allow me to integrate a variety of fonts easier
-    */
-    --satanicHeader: font-family: 'Fleur De Leah', cursive;
-    --satanicContent: font-family: 'Delius Swash Caps', cursive;
+ 
     --grafittyLetter: 'Stick No Bills', sans-serif;
     --standardText: 'Rubik', sans-serif;
 }
