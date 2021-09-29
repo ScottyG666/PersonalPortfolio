@@ -26,6 +26,10 @@ html, body{
     margin: 0
 }
 
+body *{
+    transition: 0.3s;
+}
+
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
     font-family: 'Stick No Bills', sans-serif;
@@ -110,6 +114,10 @@ ul{
     align-items:center;
     background-color: var(--mainColor);
     border-radius: 5px 5px 0px 0px;
+}
+
+#navigation a{
+    color: var(--mainText);
 }
 
 #navigation{

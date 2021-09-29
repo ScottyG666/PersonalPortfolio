@@ -1,18 +1,18 @@
 :root{
-    --mainColor:#eaeaea;
-    --secondaryColor:#fff;
+    --mainColor:#000000;
+    --secondaryColor:#640000;
 
-    --borderColor:#c1c1c1;
+    --borderColor:#8b0303;
 
-    --mainText:black;
-    --secondaryText: #4b5156;
+    --mainText:#ffffff;
+    --secondaryText: #696e72;
 
-    --themeDotBorder: #24292e;
+    --themeDotBorder: #c02929;
 
     --previewBG: rgb(251,249,243,0.8);
     --previewShadow: #f0ead6;
 
-    --buttonColor: black;
+    --buttonColor: rgb(156, 27, 27);
     
     --grafittyLetter: 'Fleur De Leah', cursive;
     --standardText: 'Delius Swash Caps', cursive;

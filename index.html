@@ -7,7 +7,7 @@
     <title>Scott's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="default.css">
 
-    <link id="theme-style" rel="stylesheet" type="text/css" href="purple.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 
     <!-- these are the google fonts for the large text and smaller text-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Fleur+De+Leah&display=swap" rel="stylesheet">
     
 
-    <script href="index.js"></script>
+    
 
 </head>
 <body>
@@ -65,11 +65,11 @@
                     <!-- these CSS rules are used here only so it was decided to use inline CSS-->
                     <h5 style="text-align: center; line-height:0; font-style:italic; font-family: var(--grafittyLetter);" > Personalize Theme</h5>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
-                        <div id="satanic-mode" class="theme-dot" title="satanic mode ;)"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="blasphemy" id="satanic-mode" class="theme-dot" title="satanic mode ;)"></div>
                     </div>
 
                     <p id="settings-note">*Theme options will be saved for 
@@ -213,6 +213,7 @@
     </section>
 
 
+    <script type="text/Javascript" src="script.js"></script>
     
 </body>
 </html>
