@@ -59,6 +59,10 @@ ul{
     list-style: none; 
 }
 
+#arrivalSection {
+    height: 880px;
+}
+
 .s1{
     background-color: var(--mainColor);
     border-bottom:1px solid var(--borderColor);
@@ -86,6 +90,7 @@ ul{
 }
 
 .intro-wrapper{
+    margin-top: 2em;
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
     border-radius: 5px 5px 0px 0px;
