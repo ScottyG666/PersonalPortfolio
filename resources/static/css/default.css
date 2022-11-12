@@ -9,7 +9,8 @@
     --secondaryText: #4b5156;
 
     --themeDotBorder: #24292e;
-
+    --shadow-color : black;
+    
     --previewBG: rgb(251,249,243,0.8);
     --previewShadow: #f0ead6;
 
@@ -80,6 +81,7 @@ ul{
     margin: 0 auto;
 }
 
+/*
 .greeting-wrapper{
     display: grid;
 
@@ -88,6 +90,7 @@ ul{
     min-height: 10em;
 
 }
+*/
 
 .intro-wrapper{
     margin-top: 2em;
@@ -168,7 +171,7 @@ ul{
     display:block;
     margin: 5em auto;
 
-    height: 450px;
+    height: 350px;
     width: 275px;
     object-fit: cover;
     border:2px solid var(--borderColor);
@@ -238,12 +241,7 @@ ul{
     padding-bottom: 50px;
 }
 
-#preview-shadow{
-    background-color: var(--previewShadow);
-    width: 300px;
-    height: 150px;
-    margin-left:30px;
-}
+
 
 #preview {
     width: 300px;
@@ -252,6 +250,7 @@ ul{
     background-color: var(--previewBG);
     padding: 15px;
     position: relative;
+    box-shadow: 1px 1px 3px -1px var(--shadow-color);
 }
 
 .corner{
